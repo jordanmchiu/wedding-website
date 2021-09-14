@@ -104,6 +104,11 @@ section .header {
   background-color: #000;
   border-radius: 4px;
 }
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
 /* ==========================================================================
 Animations
 ========================================================================== */
@@ -252,7 +257,7 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 750px;
-  background: url('../img/hero-min.jpg') center center;
+  background: url('../img/banner.jpg') center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -293,7 +298,7 @@ Hero
 }
 .fixed {
   position: fixed;
-  background-color: rgba(55, 36, 40, .88);
+  background-color: rgba(209, 115, 154, .88);
   z-index: 999;
   width: 100%;
 }
@@ -782,6 +787,22 @@ Google map
 }
 .pointer-events-auto {
   pointer-events: auto;
+}
+
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:20%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 
 /* ==========================================================================
