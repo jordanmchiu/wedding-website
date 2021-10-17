@@ -100,12 +100,14 @@
                         <br>
                         A cash bar will be available.
                     </p>
-                    <a class="btn btn-accent btn-small" data-toggle="modal" data-target="#dc-modal">
-                        <i class="fa fa-barcode"></i>&nbsp;&nbsp;Schedule
+                    <a class="btn btn-accent btn-small" data-toggle="modal" data-target="#schedule-modal">
+                        <i class="fa fa-barcode"></i>&nbsp;Schedule
                     </a>
                     <br><br>
-                    <h5>Dress code</h5>
-                    <p>Smart casual. (TBC)</p>
+                    <a class="btn btn-accent btn-small" data-toggle="modal" data-target="#dc-modal">
+                        <i class="fa fa-barcode"></i>&nbsp;What should I wear?
+                    </a>
+                    <br><br>
                 </div>
             </div>
             <div class="col-md-6 col-sm-12 col-xs-12 rightcol">
@@ -116,7 +118,7 @@
         </div>
     </div>
 
-    <div id="dc-modal" class="modal fade" tabindex="-1" role="dialog">
+    <div id="schedule-modal" class="modal fade" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-body text-center">
@@ -142,6 +144,27 @@
                             <td>Dancing!</td>
                         </tr>
                     </table>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="dc-modal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                    </button>
+                    <h3 class="text-center section-padding">Dress code: Smart Casual</h3>
+                    <p>
+                        <strong>Wear comfortable shoes!</strong>  We'll have dancing later on in the reception, so be prepared if you want to participate!
+                    </p>
+                    <p>
+                        <strong>Examples:</strong> Collared, button-up, or polo shirts.  Blouses, comfortable dresses, or skirts.  Nice jeans, chinos, or dress pants are great.  Blazers or ties are also fine, but not necessary.
+                    </p>
+                    <p>
+                        <a href="https://www.masterclass.com/articles/smart-casual-dress-code-and-attire-guide" target="_blank">This article</a> gives a rough idea of what we're thinking.
+                    </p>
                 </div>
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
@@ -248,8 +271,8 @@
     </div>
 </section>
 
-<section class="rsvp text-center" id="rsvp">
-    <div class="container">
+<section class="rsvp section-padding" id="rsvp">
+    <div class="container text-center">
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
                 <h3>RSVP</h3>
